@@ -107,7 +107,7 @@ plot(detect, pop.desc)
 analyses <- make.ds.analysis(dfmodel = list(~1),# list(~1, ~size),
                              key = c("hr"),  # ,"hr"),
                              truncation = trnc,
-                             er.var = "R2",  # "S2": not supported, likely will be over-estimated
+                             er.var = "R2",  # "S2": not supported, likely will be over-estimated, O2 also not supported
                              criteria = "AIC")
 ##############################################################################################################################
 ```
